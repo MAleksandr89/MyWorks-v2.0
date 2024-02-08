@@ -1,4 +1,10 @@
 /* Reset and base styles  */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+  }
+  
 * {
 	padding: 0px;
 	margin: 0px;

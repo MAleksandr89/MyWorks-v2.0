@@ -6,7 +6,7 @@ import styles from './app.module.scss';
 
 export const App = () => {
     return (
-        <div className="wrapper">
+        <div className={styles["wrapper"]}>
             <Header />
             <div className={styles.content}>
                 <Routes>

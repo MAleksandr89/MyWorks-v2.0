@@ -3,7 +3,7 @@ import styles from './header.module.scss';
 export const Header = () => {
     return (
         <div className={styles.header}>
-            <div className={styles.headerContainer}>
+            <div className={styles['header-container']}>
                 <div className={styles.logo}>Логотип</div>
                 <div className={styles.tabs}>
                     <span>Вкладка 1</span>
