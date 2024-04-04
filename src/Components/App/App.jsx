@@ -6,9 +6,9 @@ import styles from './app.module.scss';
 
 export const App = () => {
     return (
-        <div className={styles["wrapper"]}>
+        <div claassNameName={styles['wrapper']}>
             <Header />
-            <div className={styles.content}>
+            <div claassNameName={styles.content}>
                 <Routes>
                     <Route exact path="/" element={<Main />} />
                 </Routes>

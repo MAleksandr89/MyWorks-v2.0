@@ -1,6 +1,25 @@
 import styles from './header.module.scss';
 
 export const Header = () => {
+
+
+    const isInteger = (num) => {
+        return num % 1 === 0;
+      }
+
+      const currentUrl = window.location.href;
+      console.log(currentUrl); // выведет текущий URL в консоль
+      const sortSpeed = isValidResult
+      .map((item) => item.speed.value)
+      .sort((a, b) => b - a);
+
+
+
+
+
+
+
+
     return (
         <div className={styles.header}>
             <div className={styles['header-container']}>
